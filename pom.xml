@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <scala.version>2.11.6</scala.version>
+        <scala.version>2.11.8</scala.version>
     </properties>
 
     <dependencies>
@@ -46,7 +46,6 @@
                 <configuration>
                     <mainSourceDir>src/main/scala</mainSourceDir>
                     <testSourceDir>src/test/scala</testSourceDir>
-
                     <scalaVersion>${scala.version}</scalaVersion>
                 </configuration>
             </plugin>
